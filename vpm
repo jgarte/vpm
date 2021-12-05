@@ -227,7 +227,7 @@ usage () {
   echo "cleanup (cl)                   - Clean up cache directory"
   t "xbps-remove -v -O"
   echo "autoremove (ar)                - Remove orphaned packages"
-  t "xbps-remove -v -O"
+  t "xbps-remove -v -o"
   echo "whatprovides (wp) <file>       - Search for package containing <file>"
   t "xlocate <pkg>"
   echo "help                           - Show usage information"
